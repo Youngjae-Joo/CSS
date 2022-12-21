@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        img{height:auto; max-width: 100%;}
+
+        #header {
+            background-color: black;
+            text-align: center;
+        }
+      
+        #header ul li{
+            display:inline;
+        }
+
+        #header ul li a{
+            display:inline-block;
+            color:white;
+            text-decoration: none;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            box-sizing: border-box;
+        }
+
+        #header ul li a:hover{
+            border-bottom: 5px solid white;
+        }
+
+       section{
+        padding:50px 100px;
+        margin:0 auto;/* 박스를 정가운데로 보내기 위해선 먼저 박스의 너비를 지정해주어야 한다. */
+        margin-top: 30px;/* css는 같은게있으면 새로운걸로 덮어버린다 */
+       }
+
+        section div{
+            border:1px solid #777;
+            padding:20px;
+        }
+     
+
+    </style>
+</head>
+
+<body>
+
+
+    <header id="header">
+        <ul>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+        </ul>
+    </header>
+    <article>
+        <img src="img/1.jpg" alt="베너1">
+    </article>
+
+    <section>
+        <h3>오늘의 발견</h3>
+        <div>
+            컨텐츠내용...<br>
+            컨텐츠내용...<br>
+            컨텐츠내용...<br>
+            컨텐츠내용...<br>
+            컨텐츠내용...<br>
+            컨텐츠내용...<br>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

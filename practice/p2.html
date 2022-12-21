@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+       .box p{
+            float: left;
+            height: 100px;
+            width:150px;
+            border:1px solid black;
+            background-color: aqua;
+            box-sizing:border-box;
+            
+        }
+        
+        .box:after{content:"";display:block;clear:both;}
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="box">
+        <p>
+            첫번째 박스입니다.
+        </p>
+
+        <p>
+            두번째 박스입니다.
+        </p>
+
+    </div>
+
+
+</body>
+</html>
