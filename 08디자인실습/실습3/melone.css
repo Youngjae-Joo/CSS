@@ -356,22 +356,241 @@ section .wrap {
     padding:5px 0;
 }
 
-.ban{
-    overflow: hidden;
+.chart_wrap{
     border:1px solid #777;
     margin-top: 16px;
 }
 
-.blist{
-    float: left;
-    width:33.3333%;
-    font-size: 14px;
-    padding:5px 0;
-    color: #999;
+.ban{
     text-align: center;
-    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.bgreen{
+
+
+.blist a{
+    float: left;
+    box-sizing: border-box;
+    width:33.3333%;
+    padding:5px 0;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+
+}
+
+.bgreen a{
     border-top:2px solid #00d344;
+}
+/* on */
+.on{
+    width:278px;
+    border-top: 1px solid #999;
+    overflow:hidden;
+    height: 66px;
+}
+
+.rank_num{
+    width:34px;
+    float:left;
+    font-size:20px;
+    font-weight: 700;
+    margin:3px 0 0 8px;
+}
+
+.chartright .rank  ul .on .rank_num{
+    margin-top:20px;
+}
+
+.rank_cnt{
+    float:left;
+    width:22px;
+    font-size:11px;
+    margin:8px 0 0 8px;
+}
+
+.chartright .rank ul .on .rank_cnt{
+    margin-top:25px;
+}
+
+.on .thumb{
+    float: left;
+    position:relative;
+    padding: 10px 0 0 60px;
+}
+
+.on .thumb img{
+    display: inline;
+    position: absolute;
+    top:8px;
+    left: 0;
+}
+
+.on .thumb .rank_info .rank_name{
+    display: block;
+}
+
+.on .tumb .rank_info .rank_cont{
+    display: block;
+}
+
+.rank_cont a{
+    color:#777;
+}
+/* off */
+.off{
+    width:278px;
+    border-top: 1px solid #999;
+    overflow:hidden;
+    height: 33px;
+}
+
+.thumb{
+    float: left;
+    margin: 3px 0 0 8px;
+}
+
+.off .thumb img{
+    display: none;
+    position: absolute;
+    top:8px;
+    left: 0;
+}
+
+.off .thumb .rank_info .rank_name{
+    display: inline;
+}
+
+.off .tumb .rank_info .rank_cont{
+    display: inline;
+}
+
+.rank_cont a{
+    color:#777;
+}
+
+/* hover */
+
+.off:hover{
+    height: 66px;
+}
+
+.off:hover .rank_num{
+    margin-top:20px;
+}
+
+.off:hover .rank_cnt{
+    margin-top:25px;
+}
+
+.off:hover .thumb{
+    margin: 0;
+    position:relative;
+    padding: 10px 0 0 60px;
+}
+
+.off:hover .thumb img{
+    display:inline;
+}
+
+.off:hover .thumb .rank_info .rank_name{
+    display: block;
+}
+
+.off:hover .tumb .rank_info .rank_cont{
+    display: block;
+}
+
+.chart_btn_area{
+    border-top:  1px solid #999;
+    overflow: hidden;
+    padding: 6px 8px;
+}
+
+.chart_btn_area button{
+    float: left;
+    border: 1px solid #999;
+    background-color: #fbfbfb;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+}
+
+.chart_btn_area span{
+    float: right;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.footer .footer_wrap{
+    border-top: 1px solid #666;
+}
+
+.footer_wrap .footer_top{
+    width:1008px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.footer .footer_wrap .footer_top ul{
+    float: right;
+}
+
+.footer_top ul li{
+    display: inline;
+}
+
+.footer_top ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:#777;
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: 10px;
+    padding: 10px 0px;
+}
+
+
+.footer .footer_wrap2{
+    border-top: 1px solid #ddd;
+}
+
+.footer_wrap2 .footer_bottom{
+    width:1008px;
+    margin:0 auto;
+}
+
+
+.footer_bottom ul{
+    margin-top:10px;
+}
+
+
+.footer_bottom ul li{
+display: inline;
+}
+
+.footer_bottom ul li a{
+    display: inline-block;
+    font-size: 10px;
+    color: #777;
+    text-decoration: none;
+    border-right: 1px solid #777;
+    padding-right: 5px;
+    height: 10px;
+    line-height: 10px;
+}
+
+.footer_bottom >p{
+    margin:20px 0 50px 0;
+}
+
+.footer_bottom>p>strong{
+    font-size: 12px;
+}
+
+.footer_bottom >p>span{
+    font-size: 10px;
+    color: #777;
 }
