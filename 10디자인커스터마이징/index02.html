@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css링크 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- 제이쿼리 링크 -->
+    <script src="jquery/jquery-3.6.3.min.js"></script>
+
+    <!-- 부트스트랩 테마가 필요하면 이쯤 추가 -->
+
+    <!-- js링크 -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- 커스터마이징 디자인 -->
+    <link rel="stylesheet" href="index02.css">
+
+    <style> @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Rubik+80s+Fade&display=swap'); </style>
+
+</head>
+
+<body>
+
+    <!-- 부트스트랩 col이용해서 디자인 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>상세보기
+                        <small>(쿠팡 예제)</small>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <img src="img/detail.jpg">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="detail">
+                        <p class="detail_content">[게릴라특가] 30일체험가능! 벨라페이스 3컬러 LED마스크 눈마사지 겸용/4단계 시간조절/피부홈케어 +사은품까지!</p>
+                        <div class="price">
+                            <strong>135,000원</strong>
+                        </div>
+                        <div class="delivery">
+                            <p>무료배송
+                                <br>
+                                상품별배송 ㅣ 택배배송 ㅣ당일출고, 12시 이전 결제 건까지 해당 (주말, 공휴일 제외)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="detail-control">
+                        <div class="dcontrol-content">
+                                <p class="left">총 상품금액</p>
+                                <strong class="right">0원</strong>
+                        </div>
+                            <div class="order">
+                                <button type="button" class="left btn btn-default">장바구니</button>
+                                <button type="button" class="right btn btn-primary">구매하기</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-top:80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="reply-wrap">
+                        <div class="reply-img">
+                            <img src="img/profile.png">
+                        </div>
+                        <div class="reply-content">
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                            <div class="reply-group">
+                                <div class="reply-input">
+                                    <input type="text" class="form-control tinput" placeholder="이름">
+                                    <input type="password" class="form-control tinput" placeholder="비밀번호">
+                                </div>
+                                <button type="button" class="btn btn-primary reply-button">등록하기</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="reply-wrap">
+                        <div class="reply-img">
+                            <img src="img/profile.png">
+                        </div>
+                        <div class="reply-content">
+                            <div class="reply-group">
+                                <Strong class="rg-left">honggildong</Strong>
+                                <small class="rg-left">2019/12/10</small>
+                                <a href="#"><span class="glyphicon glyphicon-pencil rg-right">수정</span></a>
+                                <a href="#"><span class="glyphicon glyphicon-remove rg-right">삭제</span></a>
+                            </div>
+                            <div>
+                                <p>여기는 댓글영역</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
