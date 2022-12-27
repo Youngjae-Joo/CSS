@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
 }
+img{
+    max-width: 100%;height: auto;
+}
 
 .detail{
     min-height: 345px;
@@ -18,6 +21,7 @@
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding:10px 0;
+    margin:0 0 10px;
 
 }
 .price>strong {
@@ -25,7 +29,7 @@
 }
 
 .delivery>p{
-   color:#888;
+    color:#888;
 }
 
 
@@ -33,25 +37,11 @@
     overflow: hidden;
 }
 
-.order .left{
-    float: left;
-    width:50%;
-    height: 60px;
-    font-size: 18px;
-}
-
 .dcontrol-content .left{
     line-height: 45px;
+    font-size: 18px;
     float:left;
 }
-
-.order .right{
-    float: right;
-    width:50%;
-    height: 60px;
-    font-size: 18px;
-}
-
 .dcontrol-content .right{
     float: right;
     font-size: 30px;
@@ -63,6 +53,19 @@
 
 .order{
     overflow: hidden;
+}
+
+.order .left{
+    float: left;
+    width:50%;
+    height: 60px;
+    font-size: 18px;
+}
+.order .right{
+    float: right;
+    width:50%;
+    height: 60px;
+    font-size: 18px;
 }
 
 .order button{
